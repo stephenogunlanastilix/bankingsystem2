@@ -1,0 +1,104 @@
+/* Original code - Styling sheet for the html code */
+
+body  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: relative;
+    margin: 0px auto;  
+    background-color: whitesmoke;
+}
+
+header { 
+    padding: relative; 
+    border-bottom: 1px solid black; 
+    border-top: 1px solid black;
+    background-color: whitesmoke;
+   
+} 
+
+header h1 {
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+header h2 {
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+
+main {
+    background: whitesmoke;
+    margin-bottom: 0%;
+    margin-left: 300px;
+    padding: 0px 20px 40px;
+    
+}
+
+main h2 {
+    text-align: center;
+    color: darkblue;
+}
+
+#login_form {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 200px;
+    border: 1px solid purple;
+    border-radius: 5%;
+    padding: 3em 6em 7em;
+    
+}
+
+aside { 
+    margin: 70px 100px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    width: 150px;
+    float: left;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+#nav_list ul {
+    margin-right:50%;
+    padding-right: 100%;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#nav_list ul li {
+    border: px solid black;
+    padding: 15px 150px 15px 45px;
+    margin-bottom: 1px;
+    background-color: gainsboro;
+    text-align: center;
+}
+
+#nav_list ul li a {
+    font-weight: bold;
+    font-size: 100%;
+    color: purple;
+}
+
+#nav_list ul li a:hover, a:focus { 
+    color: orangered;
+}
+
+
+footer {
+    border: 2px solid black;
+    border-color: white;
+    margin: inherit;
+    padding: 0%;
+    background-color: darkslateblue;
+        
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}

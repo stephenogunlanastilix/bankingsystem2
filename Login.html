@@ -1,0 +1,61 @@
+<! --Original Code. The idea was to develop an employee web user interface where they can login in the system-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+ <title>MNSU-IT 483</title>
+  
+   <link rel ="stylesheet" href= "main.css"> 
+   <link rel ="stylesheet" href= "normalize.css">
+   
+</head>
+
+<body>
+    <header> 
+    <h1><Strong>Minnesota Banking System</Strong></h1>
+    
+    </header>
+    
+<aside>
+  
+   <nav id="nav_list">
+        <ul>
+            <li><a href="">Accounts</a></li>
+            <li><a href="">Login</a></li>
+            <li><a href="">Online Banking</a></li>
+            <li><a href="">Locations</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+</aside>
+    
+<main>
+    <h2>Employee Login</h2>
+        <form id="login_form" name="login_form" 
+                  action="login.html" method="get">
+                <label for="username">Username
+                </label><br>
+                <input type="text" id="enter"
+                       name="username">
+                <span id="username_error">*</span><br><br>
+                <label for="password">Password</label><br>
+                <input type="numbers" id="enter"
+                       name="password">
+                <span id="password_error">*</span><br>
+
+                <label>&nbsp;</label><br>
+                <input type="button" id="enter"
+                       value="Login">
+            <h6><a href="">Forgot Password/Username?</a></h6>
+        </form>
+</main>
+
+
+<footer>
+    <p>&copy; Minnesota Banking</p>
+</footer>
+
+</body>
+</html>
