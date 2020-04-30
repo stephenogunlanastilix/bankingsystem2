@@ -77,28 +77,28 @@ public class Menu extends JFrame { // Menu class previews the options and functi
 		btnNewButton.setBounds(34, 200, 196, 89);
 		contentPane.add(btnNewButton);
 		
-		JButton btnNewButton_1 = new JButton("Search");
+		JButton btnNewButton_1 = new JButton("Search"); // JButton is an implementation of a "push" button for the search member function in gui.
 		btnNewButton_1.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		btnNewButton_1.setForeground(Color.WHITE);
 		btnNewButton_1.setBackground(Color.BLACK);
 		btnNewButton_1.setBounds(287, 200, 196, 89);
 			// Action listener set a the action to be performed
-		btnNewButton_1.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
+		btnNewButton_1.addActionListener(new ActionListener() { // Implement the ActionListener interface in the class 
+			public void actionPerformed(ActionEvent arg0) { // method is invoked automatically whenever action listener is called
 				 //Redirect users to Search user class by setting visibility to true
 				new Searchuser().setVisible(true);
 			}
 		});
 		contentPane.add(btnNewButton_1);
 		
-		JButton btnNewButton_2 = new JButton("Delete");
+		JButton btnNewButton_2 = new JButton("Delete"); // JButton is an implementation of a "push" button for the delete member function in gui.
 		btnNewButton_2.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		btnNewButton_2.setForeground(Color.WHITE);
 		btnNewButton_2.setBackground(Color.BLACK);
 		btnNewButton_2.setBounds(548, 200, 196, 89);
 			// Action listener set a the action to be performed
-		btnNewButton_2.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
+		btnNewButton_2.addActionListener(new ActionListener() { // Implement the ActionListener interface in the class 
+			public void actionPerformed(ActionEvent arg0) { // method is invoked automatically whenever action listener is called
 				 //Redirect users to Delete user class by setting visibility to true
 				new Deleteuser().setVisible(true);
 			}
